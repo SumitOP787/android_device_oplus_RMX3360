@@ -34,5 +34,8 @@ TARGET_KERNEL_CONFIG := vendor/lahaina_defconfig
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Recovery
+TARGET_OTA_ASSERT_DEVICE := RMX3360,RMX3363,RMX3360L1,RE54ABL1
+
 # inherit from the proprietary version
 -include vendor/oplus/RMX3360/BoardConfigVendor.mk
