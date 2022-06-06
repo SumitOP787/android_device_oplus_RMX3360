@@ -14,6 +14,9 @@ $(call inherit-product, device/oplus/RMX3360/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := voltage_RMX3360
 PRODUCT_DEVICE := RMX3360
 PRODUCT_MANUFACTURER := realme
