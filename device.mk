@@ -34,3 +34,6 @@ $(call inherit-product, device/oplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oplus/RMX3360/RMX3360-vendor.mk)
+
+# RealmeParts
+$(call inherit-product, packages/apps/RealmeParts/parts.mk)
